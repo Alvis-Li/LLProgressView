@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33E2C001BF210300000DE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2BFF1BF210300000DE46 /* main.m */; };
+		D33E2C031BF210300000DE46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C021BF210300000DE46 /* AppDelegate.m */; };
+		D33E2C061BF210300000DE46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C051BF210300000DE46 /* ViewController.m */; };
+		D33E2C091BF210300000DE46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33E2C071BF210300000DE46 /* Main.storyboard */; };
+		D33E2C0B1BF210300000DE46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33E2C0A1BF210300000DE46 /* Assets.xcassets */; };
+		D33E2C0E1BF210300000DE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33E2C0C1BF210300000DE46 /* LaunchScreen.storyboard */; };
+		D33E2C191BF210300000DE46 /* LLProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C181BF210300000DE46 /* LLProgressViewTests.m */; };
+		D33E2C241BF210300000DE46 /* LLProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C231BF210300000DE46 /* LLProgressViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D33E2C151BF210300000DE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33E2BF31BF210300000DE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33E2BFA1BF210300000DE46;
+			remoteInfo = LLProgressView;
+		};
+		D33E2C201BF210300000DE46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D33E2BF31BF210300000DE46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D33E2BFA1BF210300000DE46;
+			remoteInfo = LLProgressView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D33E2BFB1BF210300000DE46 /* LLProgressView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLProgressView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33E2BFF1BF210300000DE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D33E2C011BF210300000DE46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D33E2C021BF210300000DE46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D33E2C041BF210300000DE46 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D33E2C051BF210300000DE46 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D33E2C081BF210300000DE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33E2C0A1BF210300000DE46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33E2C0D1BF210300000DE46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33E2C0F1BF210300000DE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33E2C141BF210300000DE46 /* LLProgressViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLProgressViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33E2C181BF210300000DE46 /* LLProgressViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgressViewTests.m; sourceTree = "<group>"; };
+		D33E2C1A1BF210300000DE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33E2C1F1BF210300000DE46 /* LLProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33E2C231BF210300000DE46 /* LLProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgressViewUITests.m; sourceTree = "<group>"; };
+		D33E2C251BF210300000DE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D33E2BF81BF210300000DE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E2C111BF210300000DE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E2C1C1BF210300000DE46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D33E2BF21BF210300000DE46 = {
+			isa = PBXGroup;
+			children = (
+				D33E2BFD1BF210300000DE46 /* LLProgressView */,
+				D33E2C171BF210300000DE46 /* LLProgressViewTests */,
+				D33E2C221BF210300000DE46 /* LLProgressViewUITests */,
+				D33E2BFC1BF210300000DE46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33E2BFC1BF210300000DE46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33E2BFB1BF210300000DE46 /* LLProgressView.app */,
+				D33E2C141BF210300000DE46 /* LLProgressViewTests.xctest */,
+				D33E2C1F1BF210300000DE46 /* LLProgressViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33E2BFD1BF210300000DE46 /* LLProgressView */ = {
+			isa = PBXGroup;
+			children = (
+				D33E2C011BF210300000DE46 /* AppDelegate.h */,
+				D33E2C021BF210300000DE46 /* AppDelegate.m */,
+				D33E2C041BF210300000DE46 /* ViewController.h */,
+				D33E2C051BF210300000DE46 /* ViewController.m */,
+				D33E2C071BF210300000DE46 /* Main.storyboard */,
+				D33E2C0A1BF210300000DE46 /* Assets.xcassets */,
+				D33E2C0C1BF210300000DE46 /* LaunchScreen.storyboard */,
+				D33E2C0F1BF210300000DE46 /* Info.plist */,
+				D33E2BFE1BF210300000DE46 /* Supporting Files */,
+			);
+			path = LLProgressView;
+			sourceTree = "<group>";
+		};
+		D33E2BFE1BF210300000DE46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D33E2BFF1BF210300000DE46 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D33E2C171BF210300000DE46 /* LLProgressViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33E2C181BF210300000DE46 /* LLProgressViewTests.m */,
+				D33E2C1A1BF210300000DE46 /* Info.plist */,
+			);
+			path = LLProgressViewTests;
+			sourceTree = "<group>";
+		};
+		D33E2C221BF210300000DE46 /* LLProgressViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D33E2C231BF210300000DE46 /* LLProgressViewUITests.m */,
+				D33E2C251BF210300000DE46 /* Info.plist */,
+			);
+			path = LLProgressViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D33E2BFA1BF210300000DE46 /* LLProgressView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33E2C281BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressView" */;
+			buildPhases = (
+				D33E2BF71BF210300000DE46 /* Sources */,
+				D33E2BF81BF210300000DE46 /* Frameworks */,
+				D33E2BF91BF210300000DE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LLProgressView;
+			productName = LLProgressView;
+			productReference = D33E2BFB1BF210300000DE46 /* LLProgressView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D33E2C131BF210300000DE46 /* LLProgressViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33E2C2B1BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressViewTests" */;
+			buildPhases = (
+				D33E2C101BF210300000DE46 /* Sources */,
+				D33E2C111BF210300000DE46 /* Frameworks */,
+				D33E2C121BF210300000DE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33E2C161BF210300000DE46 /* PBXTargetDependency */,
+			);
+			name = LLProgressViewTests;
+			productName = LLProgressViewTests;
+			productReference = D33E2C141BF210300000DE46 /* LLProgressViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D33E2C1E1BF210300000DE46 /* LLProgressViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33E2C2E1BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressViewUITests" */;
+			buildPhases = (
+				D33E2C1B1BF210300000DE46 /* Sources */,
+				D33E2C1C1BF210300000DE46 /* Frameworks */,
+				D33E2C1D1BF210300000DE46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D33E2C211BF210300000DE46 /* PBXTargetDependency */,
+			);
+			name = LLProgressViewUITests;
+			productName = LLProgressViewUITests;
+			productReference = D33E2C1F1BF210300000DE46 /* LLProgressViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D33E2BF31BF210300000DE46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = levy;
+				TargetAttributes = {
+					D33E2BFA1BF210300000DE46 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D33E2C131BF210300000DE46 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D33E2BFA1BF210300000DE46;
+					};
+					D33E2C1E1BF210300000DE46 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D33E2BFA1BF210300000DE46;
+					};
+				};
+			};
+			buildConfigurationList = D33E2BF61BF210300000DE46 /* Build configuration list for PBXProject "LLProgressView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D33E2BF21BF210300000DE46;
+			productRefGroup = D33E2BFC1BF210300000DE46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D33E2BFA1BF210300000DE46 /* LLProgressView */,
+				D33E2C131BF210300000DE46 /* LLProgressViewTests */,
+				D33E2C1E1BF210300000DE46 /* LLProgressViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D33E2BF91BF210300000DE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33E2C0E1BF210300000DE46 /* LaunchScreen.storyboard in Resources */,
+				D33E2C0B1BF210300000DE46 /* Assets.xcassets in Resources */,
+				D33E2C091BF210300000DE46 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E2C121BF210300000DE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E2C1D1BF210300000DE46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D33E2BF71BF210300000DE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33E2C061BF210300000DE46 /* ViewController.m in Sources */,
+				D33E2C031BF210300000DE46 /* AppDelegate.m in Sources */,
+				D33E2C001BF210300000DE46 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E2C101BF210300000DE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33E2C191BF210300000DE46 /* LLProgressViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D33E2C1B1BF210300000DE46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33E2C241BF210300000DE46 /* LLProgressViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D33E2C161BF210300000DE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33E2BFA1BF210300000DE46 /* LLProgressView */;
+			targetProxy = D33E2C151BF210300000DE46 /* PBXContainerItemProxy */;
+		};
+		D33E2C211BF210300000DE46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D33E2BFA1BF210300000DE46 /* LLProgressView */;
+			targetProxy = D33E2C201BF210300000DE46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D33E2C071BF210300000DE46 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33E2C081BF210300000DE46 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D33E2C0C1BF210300000DE46 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33E2C0D1BF210300000DE46 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33E2C261BF210300000DE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D33E2C271BF210300000DE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D33E2C291BF210300000DE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqcqc.LLProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D33E2C2A1BF210300000DE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LLProgressView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqcqc.LLProgressView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D33E2C2C1BF210300000DE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqcqc.LLProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLProgressView.app/LLProgressView";
+			};
+			name = Debug;
+		};
+		D33E2C2D1BF210300000DE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LLProgressViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqcqc.LLProgressViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LLProgressView.app/LLProgressView";
+			};
+			name = Release;
+		};
+		D33E2C2F1BF210300000DE46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqcqc.LLProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLProgressView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D33E2C301BF210300000DE46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LLProgressViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lqcqc.LLProgressViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LLProgressView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D33E2BF61BF210300000DE46 /* Build configuration list for PBXProject "LLProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33E2C261BF210300000DE46 /* Debug */,
+				D33E2C271BF210300000DE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33E2C281BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33E2C291BF210300000DE46 /* Debug */,
+				D33E2C2A1BF210300000DE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D33E2C2B1BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33E2C2C1BF210300000DE46 /* Debug */,
+				D33E2C2D1BF210300000DE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D33E2C2E1BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33E2C2F1BF210300000DE46 /* Debug */,
+				D33E2C301BF210300000DE46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D33E2BF31BF210300000DE46 /* Project object */;
+}
