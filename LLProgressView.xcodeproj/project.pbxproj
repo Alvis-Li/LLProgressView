@@ -15,6 +15,8 @@
 		D33E2C0E1BF210300000DE46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33E2C0C1BF210300000DE46 /* LaunchScreen.storyboard */; };
 		D33E2C191BF210300000DE46 /* LLProgressViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C181BF210300000DE46 /* LLProgressViewTests.m */; };
 		D33E2C241BF210300000DE46 /* LLProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C231BF210300000DE46 /* LLProgressViewUITests.m */; };
+		D33E2C331BF210560000DE46 /* LLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C321BF210560000DE46 /* LLProgressView.m */; };
+		D33E2C351BF217170000DE46 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E2C341BF217170000DE46 /* test1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,9 @@
 		D33E2C1F1BF210300000DE46 /* LLProgressViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LLProgressViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D33E2C231BF210300000DE46 /* LLProgressViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLProgressViewUITests.m; sourceTree = "<group>"; };
 		D33E2C251BF210300000DE46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33E2C311BF210560000DE46 /* LLProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLProgressView.h; sourceTree = "<group>"; };
+		D33E2C321BF210560000DE46 /* LLProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLProgressView.m; sourceTree = "<group>"; };
+		D33E2C341BF217170000DE46 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +106,13 @@
 		D33E2BFD1BF210300000DE46 /* LLProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				D33E2C341BF217170000DE46 /* test1.png */,
 				D33E2C011BF210300000DE46 /* AppDelegate.h */,
 				D33E2C021BF210300000DE46 /* AppDelegate.m */,
 				D33E2C041BF210300000DE46 /* ViewController.h */,
 				D33E2C051BF210300000DE46 /* ViewController.m */,
+				D33E2C311BF210560000DE46 /* LLProgressView.h */,
+				D33E2C321BF210560000DE46 /* LLProgressView.m */,
 				D33E2C071BF210300000DE46 /* Main.storyboard */,
 				D33E2C0A1BF210300000DE46 /* Assets.xcassets */,
 				D33E2C0C1BF210300000DE46 /* LaunchScreen.storyboard */,
@@ -244,6 +252,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D33E2C0E1BF210300000DE46 /* LaunchScreen.storyboard in Resources */,
+				D33E2C351BF217170000DE46 /* test1.png in Resources */,
 				D33E2C0B1BF210300000DE46 /* Assets.xcassets in Resources */,
 				D33E2C091BF210300000DE46 /* Main.storyboard in Resources */,
 			);
@@ -273,6 +282,7 @@
 				D33E2C061BF210300000DE46 /* ViewController.m in Sources */,
 				D33E2C031BF210300000DE46 /* AppDelegate.m in Sources */,
 				D33E2C001BF210300000DE46 /* main.m in Sources */,
+				D33E2C331BF210560000DE46 /* LLProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
