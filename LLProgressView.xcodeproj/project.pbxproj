@@ -17,6 +17,8 @@
 		D33E2C241BF210300000DE46 /* LLProgressViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C231BF210300000DE46 /* LLProgressViewUITests.m */; };
 		D33E2C331BF210560000DE46 /* LLProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = D33E2C321BF210560000DE46 /* LLProgressView.m */; };
 		D33E2C351BF217170000DE46 /* test1.png in Resources */ = {isa = PBXBuildFile; fileRef = D33E2C341BF217170000DE46 /* test1.png */; };
+		D34DA0E01BF2DE450046A74F /* LLBezierCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = D34DA0DF1BF2DE450046A74F /* LLBezierCurve.m */; };
+		D34DA0E31BF2DEA90046A74F /* LLCustomTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D34DA0E21BF2DEA90046A74F /* LLCustomTextLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		D33E2C311BF210560000DE46 /* LLProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLProgressView.h; sourceTree = "<group>"; };
 		D33E2C321BF210560000DE46 /* LLProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLProgressView.m; sourceTree = "<group>"; };
 		D33E2C341BF217170000DE46 /* test1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test1.png; sourceTree = "<group>"; };
+		D34DA0DE1BF2DE450046A74F /* LLBezierCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLBezierCurve.h; sourceTree = "<group>"; };
+		D34DA0DF1BF2DE450046A74F /* LLBezierCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLBezierCurve.m; sourceTree = "<group>"; };
+		D34DA0E11BF2DEA90046A74F /* LLCustomTextLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLCustomTextLayer.h; sourceTree = "<group>"; };
+		D34DA0E21BF2DEA90046A74F /* LLCustomTextLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLCustomTextLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,10 @@
 				D33E2C051BF210300000DE46 /* ViewController.m */,
 				D33E2C311BF210560000DE46 /* LLProgressView.h */,
 				D33E2C321BF210560000DE46 /* LLProgressView.m */,
+				D34DA0DE1BF2DE450046A74F /* LLBezierCurve.h */,
+				D34DA0DF1BF2DE450046A74F /* LLBezierCurve.m */,
+				D34DA0E11BF2DEA90046A74F /* LLCustomTextLayer.h */,
+				D34DA0E21BF2DEA90046A74F /* LLCustomTextLayer.m */,
 				D33E2C071BF210300000DE46 /* Main.storyboard */,
 				D33E2C0A1BF210300000DE46 /* Assets.xcassets */,
 				D33E2C0C1BF210300000DE46 /* LaunchScreen.storyboard */,
@@ -281,8 +291,10 @@
 			files = (
 				D33E2C061BF210300000DE46 /* ViewController.m in Sources */,
 				D33E2C031BF210300000DE46 /* AppDelegate.m in Sources */,
+				D34DA0E01BF2DE450046A74F /* LLBezierCurve.m in Sources */,
 				D33E2C001BF210300000DE46 /* main.m in Sources */,
 				D33E2C331BF210560000DE46 /* LLProgressView.m in Sources */,
+				D34DA0E31BF2DEA90046A74F /* LLCustomTextLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +518,7 @@
 				D33E2C2A1BF210300000DE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D33E2C2B1BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressViewTests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +527,7 @@
 				D33E2C2D1BF210300000DE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D33E2C2E1BF210300000DE46 /* Build configuration list for PBXNativeTarget "LLProgressViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +536,7 @@
 				D33E2C301BF210300000DE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
