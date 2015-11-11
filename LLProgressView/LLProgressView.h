@@ -100,4 +100,8 @@
  *  @param animated Specify YES to animate the change or NO if you do not want the change to be animated.
  */
 - (void)setProgress:(CGFloat)progress animated:(BOOL)animated;
+
+-(void)rotationWithDuration:(CFTimeInterval)duration indeterminate:(BOOL)indeterminate;
+
+-(void)rotationStop;
 @end

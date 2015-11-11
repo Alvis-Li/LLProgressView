@@ -32,6 +32,7 @@
     UIImageView * imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"test1"]];
     imageView.frame = CGRectMake(0, 0, CGRectGetWidth(_progressView.frame)-10, CGRectGetWidth(_progressView.frame)-10);
     imageView.center = CGPointMake(CGRectGetWidth(_progressView.frame)/2.0, CGRectGetWidth(_progressView.frame)/2.0);
+    
     self.progressView.centralView = imageView;
     
     progress = 0.0;
@@ -78,6 +79,18 @@
     
 
     
+}
+- (IBAction)clock2:(UIButton *)sender {
+    CGPoint point = self.progressView.center;
+    [UIView animateWithDuration:1 animations:^{
+        CGAffineTransform newTransform =
+        CGAffineTransformScale(self.progressView.transform, 0.8, 0.8);
+        [self.progressView setTransform:newTransform];
+        self.progressView.center = CGPointMake(point.x, point.y-100);
+    } completion:^(BOOL finished) {
+        
+    }];
+   
 }
 
 @end

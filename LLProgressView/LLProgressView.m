@@ -234,6 +234,9 @@ NSString * const LLProgressViewProgressAnimationKey = @"LLProgressViewProgressAn
     //  [self.progressView.shapeLayer addAnimation:highlightAnimation forKey:@"strokeColor"];
     [self.progressView.shapeLayer addAnimation:highlightAnimation forKey:@"strokeColor"];
     
+
+    
+    
     // Add timer to update valueLabel
     _valueLabelProgressPercentDifference = (progress - self.progress) * 100;
     CFTimeInterval timerInterval =  self.animationDuration / ABS(_valueLabelProgressPercentDifference);
@@ -242,9 +245,20 @@ NSString * const LLProgressViewProgressAnimationKey = @"LLProgressViewProgressAn
                                                                 selector:@selector(onValueLabelUpdateTimer:)
                                                                 userInfo:nil
                                                                  repeats:YES];
-    
-    
     _progress = progress;
+}
+
+-(void)rotationWithDuration:(CFTimeInterval)duration indeterminate:(BOOL)indeterminate{
+    
+    CABasicAnimation *spinAnimation = [CABasicAnimation animationWithKeyPath:@"transform.rotation"];
+    spinAnimation.byValue = [NSNumber numberWithDouble:indeterminate? 2.0f*M_PI : -2.0f*M_PI];
+    spinAnimation.duration = duration;
+    spinAnimation.repeatCount = HUGE_VALF;
+    [self.progressView.shapeLayer addAnimation:spinAnimation forKey:@"indeterminateAnimation"];
+}
+
+-(void)rotationStop{
+    [self.progressView.shapeLayer removeAnimationForKey:@"indeterminateAnimation"];
 }
 
 - (void)stopAnimation {
